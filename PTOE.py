@@ -189,7 +189,7 @@ ts_inf=1
 og_elm=pygame.image.load('resource/og.png').convert_alpha()
 og_inf=1
 la_elm=pygame.image.load('resource/la.png').convert_alpha()
-la_inf=1
+la_inf=pygame.image.load('resource/la_inf.png')
 ce_elm=pygame.image.load('resource/ce.png').convert_alpha()
 ce_inf=1
 pr_elm=pygame.image.load('resource/pr.png').convert_alpha()
@@ -248,12 +248,13 @@ no_elm=pygame.image.load('resource/no.png').convert_alpha()
 no_inf=1
 lr_elm=pygame.image.load('resource/lr.png').convert_alpha()
 lr_inf=1
-start=pygame.image.load('resource/placeholder.png')
+plc_holder=pygame.image.load('resource/placeholder.png')
+cms=pygame.image.load('resource/cms.png')
 debug=pygame.image.load('resource/debug1.png')
 menu0=pygame.image.load('resource/menu0.png')
 menu1=pygame.image.load('resource/menu1.png')
 resume_btn=pygame.image.load('resource/resume1.png').convert_alpha()
-start1=pygame.image.load('resource/start.png').convert_alpha()
+start=pygame.image.load('resource/start.png').convert_alpha()
 loadtimer=0
 
 #loading screen setup
@@ -464,7 +465,7 @@ md=Button(1210, 695, md_elm, 1)
 no=Button(1290, 695, no_elm, 1)
 lr=Button(1370, 695, lr_elm, 1)
 resume=Button(1225, 10, resume_btn, 0.25)
-start_btn=Button(620, 300, start1, 0.5)
+start_btn=Button(620, 300, start, 0.5)
 
 #running phase
 run=True
@@ -1082,232 +1083,232 @@ while run:
 			state = "main"
 	if state == "ra":
 		screen.fill((0,0,0))
-		screen.blit(start,(0,0))
+		screen.blit(cms,(0,0))
 		if resume.draw(screen):
 			state = "main"
 	if state == "rf":
 		screen.fill((0,0,0))
-		screen.blit(start,(0,0))
+		screen.blit(cms,(0,0))
 		if resume.draw(screen):
 			state = "main"
 	if state == "db":
 		screen.fill((0,0,0))
-		screen.blit(start,(0,0))
+		screen.blit(cms,(0,0))
 		if resume.draw(screen):
 			state = "main"
 	if state == "sg":
 		screen.fill((0,0,0))
-		screen.blit(start,(0,0))
+		screen.blit(cms,(0,0))
 		if resume.draw(screen):
 			state = "main"
 	if state == "bh":
 		screen.fill((0,0,0))
-		screen.blit(start,(0,0))
+		screen.blit(cms,(0,0))
 		if resume.draw(screen):
 			state = "main"
 	if state == "hs":
 		screen.fill((0,0,0))
-		screen.blit(start,(0,0))
+		screen.blit(cms,(0,0))
 		if resume.draw(screen):
 			state = "main"
 	if state == "mt":
 		screen.fill((0,0,0))
-		screen.blit(start,(0,0))
+		screen.blit(cms,(0,0))
 		if resume.draw(screen):
 			state = "main"
 	if state == "ds":
 		screen.fill((0,0,0))
-		screen.blit(start,(0,0))
+		screen.blit(cms,(0,0))
 		if resume.draw(screen):
 			state = "main"
 	if state == "rg":
 		screen.fill((0,0,0))
-		screen.blit(start,(0,0))
+		screen.blit(cms,(0,0))
 		if resume.draw(screen):
 			state = "main"
 	if state == "cn":
 		screen.fill((0,0,0))
-		screen.blit(start,(0,0))
+		screen.blit(cms,(0,0))
 		if resume.draw(screen):
 			state = "main"
 	if state == "nh":
 		screen.fill((0,0,0))
-		screen.blit(start,(0,0))
+		screen.blit(cms,(0,0))
 		if resume.draw(screen):
 			state = "main"
 	if state == "fl":
 		screen.fill((0,0,0))
-		screen.blit(start,(0,0))
+		screen.blit(cms,(0,0))
 		if resume.draw(screen):
 			state = "main"
 	if state == "mc":
 		screen.fill((0,0,0))
-		screen.blit(start,(0,0))
+		screen.blit(cms,(0,0))
 		if resume.draw(screen):
 			state = "main"
 	if state == "lv":
 		screen.fill((0,0,0))
-		screen.blit(start,(0,0))
+		screen.blit(cms,(0,0))
 		if resume.draw(screen):
 			state = "main"
 	if state == "ts":
 		screen.fill((0,0,0))
-		screen.blit(start,(0,0))
+		screen.blit(cms,(0,0))
 		if resume.draw(screen):
 			state = "main"
 	if state == "og":
 		screen.fill((0,0,0))
-		screen.blit(start,(0,0))
+		screen.blit(cms,(0,0))
 		if resume.draw(screen):
 			state = "main"
 	if state == "la":
 		screen.fill((0,0,0))
-		screen.blit(start,(0,0))
+		screen.blit(la_inf,(0,0))
 		if resume.draw(screen):
 			state = "main"
 	if state == "ce":
 		screen.fill((0,0,0))
-		screen.blit(start,(0,0))
+		screen.blit(cms,(0,0))
 		if resume.draw(screen):
 			state = "main"
 	if state == "pr":
 		screen.fill((0,0,0))
-		screen.blit(start,(0,0))
+		screen.blit(cms,(0,0))
 		if resume.draw(screen):
 			state = "main"
 	if state == "nd":
 		screen.fill((0,0,0))
-		screen.blit(start,(0,0))
+		screen.blit(cms,(0,0))
 		if resume.draw(screen):
 			state = "main"
 	if state == "pm":
 		screen.fill((0,0,0))
-		screen.blit(start,(0,0))
+		screen.blit(cms,(0,0))
 		if resume.draw(screen):
 			state = "main"
 	if state == "sm":
 		screen.fill((0,0,0))
-		screen.blit(start,(0,0))
+		screen.blit(cms,(0,0))
 		if resume.draw(screen):
 			state = "main"
 	if state == "eu":
 		screen.fill((0,0,0))
-		screen.blit(start,(0,0))
+		screen.blit(cms,(0,0))
 		if resume.draw(screen):
 			state = "main"
 	if state == "gd":
 		screen.fill((0,0,0))
-		screen.blit(start,(0,0))
+		screen.blit(cms,(0,0))
 		if resume.draw(screen):
 			state = "main"
 	if state == "tb":
 		screen.fill((0,0,0))
-		screen.blit(start,(0,0))
+		screen.blit(cms,(0,0))
 		if resume.draw(screen):
 			state = "main"
 	if state == "dy":
 		screen.fill((0,0,0))
-		screen.blit(start,(0,0))
+		screen.blit(cms,(0,0))
 		if resume.draw(screen):
 			state = "main"
 	if state == "ho":
 		screen.fill((0,0,0))
-		screen.blit(start,(0,0))
+		screen.blit(cms,(0,0))
 		if resume.draw(screen):
 			state = "main"
 	if state == "er":
 		screen.fill((0,0,0))
-		screen.blit(start,(0,0))
+		screen.blit(cms,(0,0))
 		if resume.draw(screen):
 			state = "main"
 	if state == "tm":
 		screen.fill((0,0,0))
-		screen.blit(start,(0,0))
+		screen.blit(cms,(0,0))
 		if resume.draw(screen):
 			state = "main"
 	if state == "yb":
 		screen.fill((0,0,0))
-		screen.blit(start,(0,0))
+		screen.blit(cms,(0,0))
 		if resume.draw(screen):
 			state = "main"
 	if state == "lu":
 		screen.fill((0,0,0))
-		screen.blit(start,(0,0))
+		screen.blit(cms,(0,0))
 		if resume.draw(screen):
 			state = "main"
 	if state == "ac":
 		screen.fill((0,0,0))
-		screen.blit(start,(0,0))
+		screen.blit(cms,(0,0))
 		if resume.draw(screen):
 			state = "main"
 	if state == "th":
 		screen.fill((0,0,0))
-		screen.blit(start,(0,0))
+		screen.blit(cms,(0,0))
 		if resume.draw(screen):
 			state = "main"
 	if state == "pa":
 		screen.fill((0,0,0))
-		screen.blit(start,(0,0))
+		screen.blit(cms,(0,0))
 		if resume.draw(screen):
 			state = "main"
 	if state == "u":
 		screen.fill((0,0,0))
-		screen.blit(start,(0,0))
+		screen.blit(cms,(0,0))
 		if resume.draw(screen):
 			state = "main"
 	if state == "np":
 		screen.fill((0,0,0))
-		screen.blit(start,(0,0))
+		screen.blit(cms,(0,0))
 		if resume.draw(screen):
 			state = "main"
 	if state == "pu":
 		screen.fill((0,0,0))
-		screen.blit(start,(0,0))
+		screen.blit(cms,(0,0))
 		if resume.draw(screen):
 			state = "main"
 	if state == "am":
 		screen.fill((0,0,0))
-		screen.blit(start,(0,0))
+		screen.blit(cms,(0,0))
 		if resume.draw(screen):
 			state = "main"
 	if state == "cm":
 		screen.fill((0,0,0))
-		screen.blit(start,(0,0))
+		screen.blit(cms,(0,0))
 		if resume.draw(screen):
 			state = "main"
 	if state == "bk":
 		screen.fill((0,0,0))
-		screen.blit(start,(0,0))
+		screen.blit(cms,(0,0))
 		if resume.draw(screen):
 			state = "main"
 	if state == "cf":
 		screen.fill((0,0,0))
-		screen.blit(start,(0,0))
+		screen.blit(cms,(0,0))
 		if resume.draw(screen):
 			state = "main"
 	if state == "es":
 		screen.fill((0,0,0))
-		screen.blit(start,(0,0))
+		screen.blit(cms,(0,0))
 		if resume.draw(screen):
 			state = "main"
 	if state == "fm":
 		screen.fill((0,0,0))
-		screen.blit(start,(0,0))
+		screen.blit(cms,(0,0))
 		if resume.draw(screen):
 			state = "main"
 	if state == "md":
 		screen.fill((0,0,0))
-		screen.blit(start,(0,0))
+		screen.blit(cms,(0,0))
 		if resume.draw(screen):
 			state = "main"
 	if state == "no":
 		screen.fill((0,0,0))
-		screen.blit(start,(0,0))
+		screen.blit(cms,(0,0))
 		if resume.draw(screen):
 			state = "main"
 	if state == "lr":
 		screen.fill((0,0,0))
-		screen.blit(start,(0,0))
+		screen.blit(cms,(0,0))
 		if resume.draw(screen):
 			state = "main"
 	pygame.display.update()
