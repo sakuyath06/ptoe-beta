@@ -85,74 +85,74 @@ kr_inf=pygame.image.load('resource/kr_inf.png')
 rb_elm=pygame.image.load('resource/rb.png').convert_alpha()
 rb_inf=pygame.image.load('resource/rb_inf.png')
 sr_elm=pygame.image.load('resource/sr.png').convert_alpha()
-sr_inf=1
+sr_inf=pygame.image.load('resource/sr_inf.png')
 y_elm=pygame.image.load('resource/y.png').convert_alpha()
-y_inf=1
+y_inf=pygame.image.load('resource/y_inf.png')
 zr_elm=pygame.image.load('resource/zr.png').convert_alpha()
-zr_inf=1
+zr_inf=pygame.image.load('resource/zr_inf.png')
 nb_elm=pygame.image.load('resource/nb.png').convert_alpha()
-nb_inf=1
+nb_inf=pygame.image.load('resource/nb_inf.png')
 mo_elm=pygame.image.load('resource/mo.png').convert_alpha()
-mo_inf=1
+mo_inf=pygame.image.load('resource/mo_inf.png')
 tc_elm=pygame.image.load('resource/tc.png').convert_alpha()
-tc_inf=1
+tc_inf=pygame.image.load('resource/tc_inf.png')
 ru_elm=pygame.image.load('resource/ru.png').convert_alpha()
-ru_inf=1
+ru_inf=pygame.image.load('resource/ru_inf.png')
 rh_elm=pygame.image.load('resource/rh.png').convert_alpha()
-rh_inf=1
+rh_inf=pygame.image.load('resource/rh_inf.png')
 pd_elm=pygame.image.load('resource/pd.png').convert_alpha()
-pd_inf=1
+pd_inf=pygame.image.load('resource/pd_inf.png')
 ag_elm=pygame.image.load('resource/ag.png').convert_alpha()
-ag_inf=1
+ag_inf=pygame.image.load('resource/ag_inf.png')
 cd_elm=pygame.image.load('resource/cd.png').convert_alpha()
-cd_inf=1
+cd_inf=pygame.image.load('resource/cd_inf.png')
 in_elm=pygame.image.load('resource/in.png').convert_alpha()
-in_inf=1
+in_inf=pygame.image.load('resource/in_inf.png')
 sn_elm=pygame.image.load('resource/sn.png').convert_alpha()
-sn_inf=1
+sn_inf=pygame.image.load('resource/sn_inf.png')
 sb_elm=pygame.image.load('resource/sb.png').convert_alpha()
-sb_inf=1
+sb_inf=pygame.image.load('resource/sb_inf.png')
 te_elm=pygame.image.load('resource/te.png').convert_alpha()
-te_inf=1
+te_inf=pygame.image.load('resource/te_inf.png')
 i_elm=pygame.image.load('resource/i.png').convert_alpha()
-i_inf=1
+i_inf=pygame.image.load('resource/i_inf.png')
 xe_elm=pygame.image.load('resource/xe.png').convert_alpha()
-xe_inf=1
+xe_inf=pygame.image.load('resource/xe_inf.png')
 cs_elm=pygame.image.load('resource/cs.png').convert_alpha()
 cs_inf=pygame.image.load('resource/cs_inf.png')
 ba_elm=pygame.image.load('resource/ba.png').convert_alpha()
-ba_inf=1
+ba_inf=pygame.image.load('resource/ba_inf.png')
 lan_elm=pygame.image.load('resource/lan.png').convert_alpha()
 hf_elm=pygame.image.load('resource/hf.png').convert_alpha()
-hf_inf=1
+hf_inf=pygame.image.load('resource/hf_inf.png')
 ta_elm=pygame.image.load('resource/ta.png').convert_alpha()
-ta_inf=1
+ta_inf=pygame.image.load('resource/ta_inf.png')
 w_elm=pygame.image.load('resource/w.png').convert_alpha()
-w_inf=1
+w_inf=pygame.image.load('resource/w_inf.png')
 re_elm=pygame.image.load('resource/re.png').convert_alpha()
-re_inf=1
+re_inf=pygame.image.load('resource/re_inf.png')
 os_elm=pygame.image.load('resource/os.png').convert_alpha()
-os_inf=1
+os_inf=pygame.image.load('resource/os_inf.png')
 ir_elm=pygame.image.load('resource/ir.png').convert_alpha()
-ir_inf=1
+ir_inf=pygame.image.load('resource/ir_inf.png')
 pt_elm=pygame.image.load('resource/pt.png').convert_alpha()
-pt_inf=1
+pt_inf=pygame.image.load('resource/pt_inf.png')
 au_elm=pygame.image.load('resource/au.png').convert_alpha()
-au_inf=1
+au_inf=pygame.image.load('resource/au_inf.png')
 hg_elm=pygame.image.load('resource/hg.png').convert_alpha()
-hg_inf=1
+hg_inf=pygame.image.load('resource/hg_inf.png')
 tl_elm=pygame.image.load('resource/tl.png').convert_alpha()
-tl_inf=1
+tl_inf=pygame.image.load('resource/tl_inf.png')
 pb_elm=pygame.image.load('resource/pb.png').convert_alpha()
-pb_inf=1
+pb_inf=pygame.image.load('resource/pb_inf.png')
 bi_elm=pygame.image.load('resource/bi.png').convert_alpha()
-bi_inf=1
+bi_inf=pygame.image.load('resource/bi_inf.png')
 po_elm=pygame.image.load('resource/po.png').convert_alpha()
-po_inf=1
+po_inf=pygame.image.load('resource/po_inf.png')
 at_elm=pygame.image.load('resource/at.png').convert_alpha()
-at_inf=1
+at_inf=pygame.image.load('resource/at_inf.png')
 rn_elm=pygame.image.load('resource/rn.png').convert_alpha()
-rn_inf=1
+rn_inf=pygame.image.load('resource/rn_inf.png')
 fr_elm=pygame.image.load('resource/fr.png').convert_alpha()
 fr_inf=pygame.image.load('resource/fr_inf.png')
 ra_elm=pygame.image.load('resource/ra.png').convert_alpha()
@@ -907,87 +907,87 @@ while run:
 			state = "main"
 	if state == "sr":
 		screen.fill((0,0,0))
-		screen.blit(start,(0,0))
+		screen.blit(sr_inf,(0,0))
 		if resume.draw(screen):
 			state = "main"
 	if state == "y":
 		screen.fill((0,0,0))
-		screen.blit(start,(0,0))
+		screen.blit(y_inf,(0,0))
 		if resume.draw(screen):
 			state = "main"
 	if state == "zr":
 		screen.fill((0,0,0))
-		screen.blit(start,(0,0))
+		screen.blit(zr_inf,(0,0))
 		if resume.draw(screen):
 			state = "main"
 	if state == "nb":
 		screen.fill((0,0,0))
-		screen.blit(start,(0,0))
+		screen.blit(nb_inf,(0,0))
 		if resume.draw(screen):
 			state = "main"
 	if state == "mo":
 		screen.fill((0,0,0))
-		screen.blit(start,(0,0))
+		screen.blit(mo_inf,(0,0))
 		if resume.draw(screen):
 			state = "main"
 	if state == "tc":
 		screen.fill((0,0,0))
-		screen.blit(start,(0,0))
+		screen.blit(tc_inf,(0,0))
 		if resume.draw(screen):
 			state = "main"
 	if state == "ru":
 		screen.fill((0,0,0))
-		screen.blit(start,(0,0))
+		screen.blit(ru_inf,(0,0))
 		if resume.draw(screen):
 			state = "main"
 	if state == "rh":
 		screen.fill((0,0,0))
-		screen.blit(start,(0,0))
+		screen.blit(rh_inf,(0,0))
 		if resume.draw(screen):
 			state = "main"
 	if state == "pd":
 		screen.fill((0,0,0))
-		screen.blit(start,(0,0))
+		screen.blit(pd_inf,(0,0))
 		if resume.draw(screen):
 			state = "main"
 	if state == "ag":
 		screen.fill((0,0,0))
-		screen.blit(start,(0,0))
+		screen.blit(ag_inf,(0,0))
 		if resume.draw(screen):
 			state = "main"
 	if state == "cd":
 		screen.fill((0,0,0))
-		screen.blit(start,(0,0))
+		screen.blit(cd_inf,(0,0))
 		if resume.draw(screen):
 			state = "main"
 	if state == "in":
 		screen.fill((0,0,0))
-		screen.blit(start,(0,0))
+		screen.blit(in_inf,(0,0))
 		if resume.draw(screen):
 			state = "main"
 	if state == "sn":
 		screen.fill((0,0,0))
-		screen.blit(start,(0,0))
+		screen.blit(sn_inf,(0,0))
 		if resume.draw(screen):
 			state = "main"
 	if state == "sb":
 		screen.fill((0,0,0))
-		screen.blit(start,(0,0))
+		screen.blit(sb_inf,(0,0))
 		if resume.draw(screen):
 			state = "main"
 	if state == "te":
 		screen.fill((0,0,0))
-		screen.blit(start,(0,0))
+		screen.blit(te_inf,(0,0))
 		if resume.draw(screen):
 			state = "main"
 	if state == "i":
 		screen.fill((0,0,0))
-		screen.blit(start,(0,0))
+		screen.blit(i_inf,(0,0))
 		if resume.draw(screen):
 			state = "main"
 	if state == "xe":
 		screen.fill((0,0,0))
-		screen.blit(start,(0,0))
+		screen.blit(xe_inf,(0,0))
 		if resume.draw(screen):
 			state = "main"
 	if state == "cs":
@@ -997,82 +997,82 @@ while run:
 			state = "main"
 	if state == "ba":
 		screen.fill((0,0,0))
-		screen.blit(start,(0,0))
+		screen.blit(ba_inf,(0,0))
 		if resume.draw(screen):
 			state = "main"
 	if state == "hf":
 		screen.fill((0,0,0))
-		screen.blit(start,(0,0))
+		screen.blit(hf_inf,(0,0))
 		if resume.draw(screen):
 			state = "main"
 	if state == "ta":
 		screen.fill((0,0,0))
-		screen.blit(start,(0,0))
+		screen.blit(ta_inf,(0,0))
 		if resume.draw(screen):
 			state = "main"
 	if state == "w":
 		screen.fill((0,0,0))
-		screen.blit(start,(0,0))
+		screen.blit(w_inf,(0,0))
 		if resume.draw(screen):
 			state = "main"
 	if state == "re":
 		screen.fill((0,0,0))
-		screen.blit(start,(0,0))
+		screen.blit(re_inf,(0,0))
 		if resume.draw(screen):
 			state = "main"
 	if state == "os":
 		screen.fill((0,0,0))
-		screen.blit(start,(0,0))
+		screen.blit(os_inf,(0,0))
 		if resume.draw(screen):
 			state = "main"
 	if state == "ir":
 		screen.fill((0,0,0))
-		screen.blit(start,(0,0))
+		screen.blit(ir_inf,(0,0))
 		if resume.draw(screen):
 			state = "main"
 	if state == "pt":
 		screen.fill((0,0,0))
-		screen.blit(start,(0,0))
+		screen.blit(pt_inf,(0,0))
 		if resume.draw(screen):
 			state = "main"
 	if state == "au":
 		screen.fill((0,0,0))
-		screen.blit(start,(0,0))
+		screen.blit(au_inf,(0,0))
 		if resume.draw(screen):
 			state = "main"
 	if state == "hg":
 		screen.fill((0,0,0))
-		screen.blit(start,(0,0))
+		screen.blit(hg_inf,(0,0))
 		if resume.draw(screen):
 			state = "main"
 	if state == "tl":
 		screen.fill((0,0,0))
-		screen.blit(start,(0,0))
+		screen.blit(tl_inf,(0,0))
 		if resume.draw(screen):
 			state = "main"
 	if state == "pb":
 		screen.fill((0,0,0))
-		screen.blit(start,(0,0))
+		screen.blit(pb_inf,(0,0))
 		if resume.draw(screen):
 			state = "main"
 	if state == "bi":
 		screen.fill((0,0,0))
-		screen.blit(start,(0,0))
+		screen.blit(bi_inf,(0,0))
 		if resume.draw(screen):
 			state = "main"
 	if state == "po":
 		screen.fill((0,0,0))
-		screen.blit(start,(0,0))
+		screen.blit(po_inf,(0,0))
 		if resume.draw(screen):
 			state = "main"
 	if state == "at":
 		screen.fill((0,0,0))
-		screen.blit(start,(0,0))
+		screen.blit(at_inf,(0,0))
 		if resume.draw(screen):
 			state = "main"
 	if state == "rn":
 		screen.fill((0,0,0))
-		screen.blit(start,(0,0))
+		screen.blit(rn_inf,(0,0))
 		if resume.draw(screen):
 			state = "main"
 	if state == "fr":
